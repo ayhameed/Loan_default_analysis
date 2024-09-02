@@ -19,8 +19,8 @@ The dataset used in this project is sourced from the Loan Default Prediction Cha
 - [Dataset Link](https://www.kaggle.com/datasets/nikhil1e9/loan-default)
 
 ### Key Features:
-- **Borrower Characteristics**: Age, Income, CreditScore, etc.
-- **Loan Information**: LoanAmount, InterestRate, LoanTerm, etc.
+- **Borrower Characteristics**: Age, Income, CreditScore, ....
+- **Loan Information**: LoanAmount, InterestRate, LoanTerm, ....
 - **Loan Outcome**: Default status (target variable)
 
 ## Project Structure
@@ -59,8 +59,8 @@ pip install -r requirements.txt
 ## Usage
 1. Clone this repository to your local machine.
 ```bash 
-git clone https://github.com/your-username/loan-default-predictive-analysis.git
-cd loan-default-predictive-analysis
+git clone git remote add origin https://github.com/ayhameed/Loan_default_analysis.git
+cd Loan-default-analysis
 ```
 2. Open a terminal and run the following command to start the Jupyter Notebook:
 ```
