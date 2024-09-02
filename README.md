@@ -93,8 +93,13 @@ The models were evaluated using the metrics below:
 The following plots were generated to assess model performance:
 
 - ROC Curve: shows the trade-off between the true positive rate and false positive rate.
-- Precision-Recall Curve: shows the relationship between precision and recall for different threshold values.
+![ROC Curve](roc_curve.png)
+
+- Precision-Recall Curve: shows the relationship between precision and recall for different threshold values
+![Precision Recall Curve](rprecision_recall_curve.png)
+.
 - Confusion Matrix Heatmap: Provides a breakdown of true positives, false positives, true negatives, and false negatives.
+![Confusion Matrix Heatmap](confusion_matrix.png)
 
 These visualizations are important for understanding model strengths and weaknesses and are available in the respective notebooks.
 
