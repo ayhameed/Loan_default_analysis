@@ -103,6 +103,99 @@ The following plots were generated to assess model performance:
 
 These visualizations are important for understanding model strengths and weaknesses and are available in the respective notebooks.
 
+## Summary 
+
+### Strong Variables Leading to Loan Default
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Coefficient</th>
+            <th>Absolute Coefficient</th>
+            <th>Impact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>InterestRate</td>
+            <td>0.449855</td>
+            <td>0.449855</td>
+            <td>High positive effect; higher interest rates increase the likelihood of default.</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>-0.588019</td>
+            <td>0.588019</td>
+            <td>High negative effect; older individuals are less likely to default.</td>
+        </tr>
+        <tr>
+            <td>Income</td>
+            <td>-0.345758</td>
+            <td>0.345758</td>
+            <td>High negative effect; higher income decreases the likelihood of default.</td>
+        </tr>
+        <tr>
+            <td>MonthsEmployed</td>
+            <td>-0.332339</td>
+            <td>0.332339</td>
+            <td>High negative effect; more months employed decreases the likelihood of default.</td>
+        </tr>
+        <tr>
+            <td>LoanAmount</td>
+            <td>0.297019</td>
+            <td>0.297019</td>
+            <td>Positive effect; larger loan amounts increase the likelihood of default.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Variables with Minimal Effect
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Coefficient</th>
+            <th>Absolute Coefficient</th>
+            <th>Impact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>EmploymentType</td>
+            <td>0.147228</td>
+            <td>0.147228</td>
+            <td>Minimal positive effect.</td>
+        </tr>
+        <tr>
+            <td>HasCoSigner</td>
+            <td>-0.139216</td>
+            <td>0.139216</td>
+            <td>Minimal negative effect.</td>
+        </tr>
+        <tr>
+            <td>HasDependents</td>
+            <td>-0.120308</td>
+            <td>0.120308</td>
+            <td>Minimal negative effect.</td>
+        </tr>
+        <tr>
+            <td>CreditScore</td>
+            <td>-0.120074</td>
+            <td>0.120074</td>
+            <td>Minimal negative effect.</td>
+        </tr>
+        <tr>
+            <td>NumCreditLines</td>
+            <td>0.097799</td>
+            <td>0.097799</td>
+            <td>Minimal positive effect.</td>
+        </tr>
+    </tbody>
+</table>
+
+
 ## Contributing
 Contributions are welcome! If you have any improvements, feel free to submit a pull request or open an issue.
 
